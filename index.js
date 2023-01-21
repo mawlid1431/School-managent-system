@@ -8,7 +8,7 @@ const homerouter = require("./routes/home")
 
 const app = express()
 app.set(`view engine`, `ejs`)
-app.listen(2000)
+app.listen(5000)
 console.log(`my sever is running..`);
 
 ///midlle ware
